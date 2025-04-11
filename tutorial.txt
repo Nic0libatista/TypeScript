@@ -2,6 +2,7 @@ npm init -y
 npm i
 npm install express mysql2 typescript ts-node @types/node @types/express
 npx tsc --init
+npm i --save-dev @types/cors
 
 tsconfig ---
   linha 30 = "rootDir": "./src",  
